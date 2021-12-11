@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Responsive CV using HTML & CSS</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .topbar {
+                background-color: black;
+                color: white;
+                padding: 20px;
+            }
+            img {
+                float: right;
+            }
+            h2 {
+                background-color: silver;
+            }
+            table{
+                width: 100%;
+            }
+           table, td, th {
+                border: 1px solid black;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            td {
+                padding: 12px;
+            }
+            @media only screen and (min-width:600px) {
+                h2 {
+                    align-items: center;
+                }
+                }
+            @media only screen and (max-width:768px) {
+                table {
+                    font-family: Arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 100;
+                }
+                td, th {
+                    border: 1px solid black;
+                    text-align: left;
+                    padding: 12px;
+                }
+                tr:nth-child(even) {
+                    background-color: #dddddd;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="topbar">
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=1cb735829c&attid=0.1&permmsgid=msg-f:1718848008933964410&th=17da932843657a7a&view=att&disp=safe&realattid=17da932288b770f49561" alt="Gaurav Garg" height="140">
+            <h3>Gaurav Garg</h3>
+            <ul style="list-style:none">
+                <li>@-gauravgarg3110@gmail.com</li>
+                <li>✆-9899528624</li>
+                <li>📍-3061/224 Chandar Nagar, Tri Nagar, New Delhi</li>
+            </ul>
+        </div>
+        <div>
+            <h2><u>OBJECTIVE</u></h2>
+            <p>Enthusiastic Software engineer eager to contribute to team success through hard work, attention to detail and excellent organizational skills.
+               Understanding of Coding and web delvelopment and learning new languages. Motivated to learn, grow and excel in tech field.</p>
+        </div>
+        <div>
+            <h2><u>EDUCATION</u></h2>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Board/University</th>
+                    <th>Institution</th>
+                    <th>%marks</th>
+                </tr>
+                <tr>
+                    <td>BBA(G)</td>
+                    <td>Guru Gobind Singh Indraprastha University</td>
+                    <td>Delhi School Of Professional Studies And Research</td>
+                    <td>77.7</td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>C.B.S.E</td>
+                    <td>Tyagi Public School</td>
+                    <td>6.0</td>
+                </tr>
+                <tr>
+                    <td>10th</td>
+                    <td>C.B.S.E</td>
+                    <td>Tyagi Public School</td>
+                    <td>6.0</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2><u>SKILLS</u></h2>
+            <ul>
+                <li>HTML and CSS</li>
+                <li>Javascript</li>
+                <li>Team Player</li>
+                <li>Communication skills</li>
+            </ul>
+        </div>
+        <div>
+            <h2><u>LANGUAGES</u></h2>
+            <ul>
+                <li>ENGLISH</li>
+                <li>HINDI</li>
+            </ul>
+        </div>
+        <div>
+            <h2><u>INTEREST</u></h2>
+            <ul>
+                <li>Gaming</li>
+                <li>Sports</li>
+                <li>Travelling</li>
+            </ul>
+        </div>
+    </body>
+</html>
